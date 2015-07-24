@@ -1,5 +1,5 @@
 <resources>
-    <string name="application">Data Binding</string>
+    <string name="application">Rx Nuclear Binding</string>
 
     <string name="activity_main">Search repositories by user</string>
 

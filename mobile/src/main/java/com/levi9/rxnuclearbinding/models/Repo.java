@@ -3,7 +3,9 @@ package com.levi9.rxnuclearbinding.models;
 
 import com.google.gson.annotations.SerializedName;
 
-public class Repo {
+import java.io.Serializable;
+
+public class Repo implements Serializable{
     private final String name;
     private final String description;
     private final String language;

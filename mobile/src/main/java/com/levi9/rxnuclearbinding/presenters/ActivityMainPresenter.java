@@ -58,10 +58,12 @@ public class ActivityMainPresenter extends RxPresenter<MainActivity> implements 
 
     @Override
     public void onNext(final Repo[] repos) {
-        getView().showLoading(false);
-        mRepos = repos;
-        getView().clearItems();
-        getView().addItems(mRepos);
+        if (repos != null) {
+            getView().showLoading(false);
+            mRepos = repos;
+            getView().clearItems();
+            getView().addItems(mRepos);
+        }
     }
 
     @Override
