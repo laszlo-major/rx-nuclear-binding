@@ -1,0 +1,7 @@
+<resources>
+    <string name="application">Data Binding</string>
+
+    <string name="activity_main">Search repositories by user</string>
+
+    <string name="action_search">Search</string>
+</resources>
